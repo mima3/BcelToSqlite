@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/pleiades201904/workspace/sqliteToGraph/lib/plantuml.jar"/>
+	<classpathentry kind="lib" path="C:/pleiades201904/workspace/sqliteToGraph/lib/sqlite-jdbc-3.27.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/pleiades201904/workspace/sqliteToGraph/lib/bcel-6.3.1.jar" sourcepath="C:/Users/mitagaki/AppData/Local/Temp/.org.sf.feeling.decompiler1557235201841/source/bcel-6.3.1-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
