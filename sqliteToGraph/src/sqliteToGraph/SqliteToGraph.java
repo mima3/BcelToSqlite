@@ -66,10 +66,10 @@ public class SqliteToGraph {
 
 	public static void main(String[] args) throws SQLException, IOException{
 		SqliteToGraph sg = new SqliteToGraph();
-		String dbPath = "C:\\pleiades201904\\workspace\\bcelToSqlite\\output.sqlite";
-		String path = "test.svg";
+		String dbPath = "..\\bcelToSqlite\\output.sqlite";
+		String path = "test_class.svg";
 		sg.parse(dbPath, path);
-		System.out.println(dbPath + "->" + path);
+		System.out.println("class:" + dbPath + "->" + path);
 	}
 	public void parse(String dbPath, String path) throws SQLException, IOException {
 		Connection connection = null;

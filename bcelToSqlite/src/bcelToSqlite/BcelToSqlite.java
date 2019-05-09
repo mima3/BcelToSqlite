@@ -29,11 +29,16 @@ public class BcelToSqlite {
 	int nextMethodId = 0x10000001;
 	int nextAnnotationId = 0x20000001;
 
-	// https://hondou.homedns.org/pukiwiki/index.php?JavaSE%20BCEL
+	/**
+	 * 下記参考に実装
+	 * https://hondou.homedns.org/pukiwiki/index.php?JavaSE%20BCEL
+	 * @param args
+	 * @throws Exception
+	 */
 	public static void main(String args[]) throws Exception
 	{
 		String srcPath;
-		srcPath = "C:\\pleiades201904\\workspace\\bcelToSqlite\\lib\\bcel-6.3.1.jar";
+		srcPath = ".\\lib\\bcel-6.3.1.jar";
         BcelToSqlite thisClass = new BcelToSqlite();
         thisClass.startWalk(new File(srcPath));
         System.out.println(srcPath + " -> output.sqlite");
