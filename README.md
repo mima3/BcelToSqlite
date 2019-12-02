@@ -1,6 +1,8 @@
 # BcelToSqlite
 Javaのバイトコードを解析した結果をクラス図で表現してみる
 
+※現在、BcelToSqlite.javaにて固定で「.\\lib\\bcel-6.3.1.jar」を対象としているので後で引数からとれるようにする
+
 
 
 Bcelのバイトコードの解析結果をSQLiteに書きこむ
